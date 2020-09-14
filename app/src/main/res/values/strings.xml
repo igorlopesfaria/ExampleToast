@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExampleToast</string>
+    <string name="title_activity_simple_toast">SimpleToastActivity</string>
+    <!--
+        This string is used for square devices and overridden by hello_world in
+        values-round/strings.xml for round devices.
+    -->
+    <string name="toast_simple">Simple Toast</string>
+    <string name="toast_long_time">Long Toast</string>
+    <string name="toast_change_position">Changing Position Toast</string>
+    <string name="toast_generic_method">Generic Method Toast</string>
+    <string name="toast_custom_view">Custom View Toast</string>
+    <string name="toast_callback">Callback Toast</string>
+    <string name="toast_background">Background App Toast</string>
+    <string name="toast_custom_view_background">Background App Custom Toast</string>
+
+</resources>

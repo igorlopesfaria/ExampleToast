@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/simpleToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_simple" />
+
+    <Button
+        android:id="@+id/longTimeToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_long_time" />
+
+    <Button
+        android:id="@+id/genericMethodToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_generic_method" />
+
+    <Button
+        android:id="@+id/changePositionToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_change_position" />
+
+    <Button
+        android:id="@+id/customViewToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_custom_view" />
+
+    <Button
+        android:id="@+id/callbackToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_callback" />
+
+    <Button
+        android:id="@+id/backgroundAppToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_background" />
+
+    <Button
+        android:id="@+id/backgroundAppCustomToastBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_custom_view_background" />
+
+
+</LinearLayout>
