@@ -52,7 +52,7 @@ class ToastActivity : Activity() {
             val duration = Toast.LENGTH_LONG
 
             val toast = Toast.makeText(applicationContext, text, duration)
-            toast.setGravity(Gravity.TOP or Gravity.START, 0, 0)
+            toast.setGravity(Gravity.TOP or Gravity.END, 0, 0)
             toast.show()
 
         }
@@ -71,9 +71,9 @@ class ToastActivity : Activity() {
             }
         }
 
-        //API 30
+        //API 30 and Higher
         callbackToast.setOnClickListener {
-            val callbackToast =
+            val callbackToast: Toast =
                 Toast.makeText(applicationContext,"Simple toast message with callback", Toast.LENGTH_SHORT)
             callbackToast.addCallback(object: Toast.Callback() {
                 override fun onToastShown() {
